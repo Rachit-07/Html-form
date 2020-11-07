@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <style>
+        body{
+            background-color: #34495e
+        }
+        .container{
+            /* display: flex; */
+            position:absolute;
+            background-color: black;
+            width:300px; 
+            padding: 40px;
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%,-50%);
+            text-align: center;
+        }
+        .container input[type="text"], .container input[type="password"]{
+            background: none;
+            width: 200px;    
+            border: 2px solid#3498db;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            padding: 14px 10px;
+            border-radius: 24px;
+            color: white;
+            transition: 0.35s;
+            outline: none;
+
+        }
+        .container input[type="text"]:focus, .container input[type="password"]:focus{
+            width: 280px;
+            border-color: #2ecc71 ;
+        }
+        .container input[type="submit"]
+     {   width: 200px;    
+            border: 2px solid#3498db;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            padding: 14px 10px;
+            border-radius: 24px;
+            color:white;
+            transition: 0.35s;
+            background: none;
+            outline: none;
+    }
+    .container input[type="submit"]:hover{
+        background-color:#2ecc71 ;
+    }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>WELCOME TO MY WEBSITE</h1>
+    <form action="" class="container">
+<input type="text" placeholder="E-mail"><br><br>
+<input type="password" placeholder="PASSWORD"><br><br>
+<input type="submit" value="SUBMIT">
+
+
+
+    </form>
+</body>
+</html>
